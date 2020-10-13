@@ -4,12 +4,12 @@ Arduino code to read the pulse sensor and send data to Pi
 
 ## Features
 1. After powering up, the onboard yellow LED will blink the code version number (1 second per blink)
-2. The onboard yellow LED will blink each time a heartbeat is detected
+2. The onboard yellow LED will blink each time a heartbeat is detected during live detection
 3. The last 10 heartbeats are used to calculate the beats/minute, 10 heartbeats are detected to output a BPM reading
 4. When a loss of a heartbeat is detected, the BPM will read 0 and not output a valid value until 10 new beats are detected
 5. Heartbeats are detected based on the average reading of the last 3 seconds of samples, plus a threshold value
 6. The reading, average reading, threshold, and bpm values are printed out at 115200bps on the USB serial interface at 150 times / second
-7. If a heartbeat is not detected for 30 seconds, a pseudo heartbeat is output at a static 80bpm
+7. If a heartbeat is not detected for 30 seconds, a pseudo heartbeat is output at a static 80bpm. The LED will blink 4 times / sec during pseudo output
 
 ## Local Demonstration
 Using the Arduino IDE you can view the waveform via Tools->Serial Plotter  
