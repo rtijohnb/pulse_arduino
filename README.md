@@ -12,9 +12,9 @@ Arduino code to read the pulse sensor and send data to Pi
 7. If a heartbeat is not detected for 30 seconds, a pseudo heartbeat is output at a static 80bpm
 
 ## Local Demonstration
-Using the Arduino IDE you can view the waveform via Tools->Serial Plotter
-You can also view the raw data under Tools->Serial Monitor
-Make sure the correct port is selected under Tools->Port
+Using the Arduino IDE you can view the waveform via Tools->Serial Plotter  
+You can also view the raw data under Tools->Serial Monitor  
+Make sure the correct port is selected under Tools->Port  
 
 ## Steps To Flash Code On The XIAO Board
 Note: further details with pictures: https://wiki.seeedstudio.com/Seeeduino-XIAO/
