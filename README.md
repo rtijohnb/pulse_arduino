@@ -29,3 +29,10 @@ Note: further details with pictures: https://wiki.seeedstudio.com/Seeeduino-XIAO
 ## Troubleshooting
 
 If your board has a solid yellow light on and doesn't show up as a com port, you can reset the board by shorting the two pins near A0. For details see: https://wiki.seeedstudio.com/Seeeduino-XIAO/
+
+## Connecting The Sensor
+Purple Analog output - A0
+Red - 3v3
+Black - GND
+
+![xiao pinout](https://files.seeedstudio.com/wiki/Seeeduino-XIAO/img/Seeeduino-XIAO-pinout.jpg)
